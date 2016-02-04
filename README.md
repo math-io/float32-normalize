@@ -25,7 +25,7 @@ Returns a normal number `y` and exponent `exp` satisfying `x = y * 2^exp`.
 ``` javascript
 var toFloat32 = require( 'float64-to-float32' );
 
-var out = normalize( toFloat32( 1.401e-45 );
+var out = normalize( toFloat32( 1.401e-45 ) );
 // returns [ 1.1754943508222875e-38, -23 ]
 ```
 
