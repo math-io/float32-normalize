@@ -41,7 +41,7 @@ var bool = ( y*pow(2,exp) === toFloat32(1.401e-45) );
 // returns true
 ```
 
-The `function` expects a finite, non-zero `numeric` value `x`. If `x == 0`,
+The `function` expects a finite, non-zero [single-precision floating-point number][ieee754] `x`. If `x == 0`,
 
 ``` javascript
 var out = normalize( 0 );
@@ -177,3 +177,4 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [testling]: https://ci.testling.com
 
 [compute-io]: https://github.com/compute-io/
+[ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
