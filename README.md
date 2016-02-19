@@ -65,6 +65,11 @@ out = normalize( NaN );
 ```
 
 
+## Notes
+
+*	While the `function` accepts higher precision [floating-point numbers][ieee754], beware that providing such numbers can be a source of subtle bugs as the relation `x = y * 2^exp` may __not__ hold.
+
+
 ## Examples
 
 ``` javascript
